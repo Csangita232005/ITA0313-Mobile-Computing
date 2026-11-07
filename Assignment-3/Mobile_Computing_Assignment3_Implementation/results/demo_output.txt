@@ -1,0 +1,3 @@
+MOBILE COMPUTING ASSIGNMENT 3 - DEMO
+DSDV: sent=150, delivered=108, PDR=72.00%, avg_delay=8.96 ms, control_messages=1320, handoffs=43, registrations=43, tunnel_bytes=1920
+AODV: sent=150, delivered=134, PDR=89.33%, avg_delay=20.52 ms, control_messages=1768, handoffs=43, registrations=43, tunnel_bytes=2400

@@ -1,0 +1,20 @@
+Saved 18 experiment rows to /mnt/data/Mobile_Computing_Assignment3_Implementation/results/experiment_results.csv
+protocol nodes mobility PDR(%) delay(ms) control_msgs handoffs
+DSDV 8 low 59.47 8.14 2800 33
+AODV 8 low 60.8 17.91 3986 33
+DSDV 8 medium 40.67 7.86 2800 113
+AODV 8 medium 47.33 18.15 3489 113
+DSDV 8 high 36.13 7.94 2800 216
+AODV 8 high 45.6 18.27 3412 216
+DSDV 12 low 66.4 8.55 6600 56
+AODV 12 low 75.07 19.52 7530 56
+DSDV 12 medium 51.07 8.28 6600 165
+AODV 12 medium 63.2 19.71 6559 165
+DSDV 12 high 33.33 7.8 6600 355
+AODV 12 high 47.6 19.56 5207 355
+DSDV 16 low 69.6 8.52 12000 53
+AODV 16 low 76.4 20.01 10275 53
+DSDV 16 medium 58.4 8.18 12000 181
+AODV 16 medium 73.2 20.07 10182 181
+DSDV 16 high 42.13 7.87 12000 389
+AODV 16 high 69.73 20.21 9732 389
