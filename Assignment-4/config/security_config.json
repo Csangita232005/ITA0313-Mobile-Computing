@@ -1,0 +1,56 @@
+{
+  "app_name": "RuralCareTest",
+  "permissions": [
+    "CAMERA",
+    "ACCESS_FINE_LOCATION"
+  ],
+  "data_stores": [
+    {
+      "name": "auth_token",
+      "type": "EncryptedSharedPreferences",
+      "encrypted": true,
+      "private": true
+    },
+    {
+      "name": "patient_db",
+      "type": "SQLite",
+      "encrypted": true,
+      "private": true
+    },
+    {
+      "name": "cache",
+      "type": "File",
+      "encrypted": false,
+      "private": true
+    }
+  ],
+  "network_endpoints": [
+    {
+      "url": "https://api.ruralcare.example/v1/sync",
+      "protocol": "HTTPS",
+      "tls_validation": true,
+      "certificate_pinning": false
+    },
+    {
+      "url": "http://legacy.example/upload",
+      "protocol": "HTTP",
+      "tls_validation": false,
+      "certificate_pinning": false
+    }
+  ],
+  "exported_components": [
+    {
+      "name": "InternalDebugActivity",
+      "exported": false,
+      "permission_protected": true
+    },
+    {
+      "name": "ShareReceiver",
+      "exported": true,
+      "permission_protected": false
+    }
+  ],
+  "app_signed": true,
+  "verified_boot_assumed": true,
+  "keystore_backed_key": true
+}
